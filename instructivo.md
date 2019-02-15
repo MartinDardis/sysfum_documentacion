@@ -1,4 +1,4 @@
-# Como insertar un membrete a una oblea generada en SYSFUM
+# Como insertar un membrete a una oblea generada 
 
 ### Requisitos previos
 
