@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>SYSFUM - Documentación</title>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800'
+          rel='stylesheet' type='text/css'>
+    <!-- FontAwesome JS -->
+    <script defer src="https://use.fontawesome.com/releases/v5.8.2/js/all.js"
+            integrity="sha384-DJ25uNYET2XCl5ZF++U8eNxPWqcKohUUBUpKGlNLMchM7q4Wjg2CUpjHLaL8yYPH"
+            crossorigin="anonymous"></script>
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
+    <!-- Plugins CSS -->
+    <link rel="stylesheet" href="assets/plugins/prism/prism.css">
+    <link rel="stylesheet" href="assets/plugins/elegant_font/css/style.css">
+
+    <!-- Theme CSS -->
+    <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
+
+</head>
+
+<body class="body-blue">
+<div class="page-wrapper">
+    <!-- ******Header****** -->
+    <header id="header" class="header">
+        <div class="container">
+            <div class="branding">
+                <h1 class="logo">
+                    <a href="index.html">
+                        <span class="text-bold">SYS</span><span class="text">FUM</span>
+                    </a>
+                </h1>
+
+            </div><!--//branding-->
+
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="index.html">Inicio</a></li>
+                <li class="breadcrumb-item active">Certificados</li>
+            </ol>
+
+
+        </div><!--//container-->
+    </header><!--//header-->
+    <div class="doc-wrapper">
+        <div class="container">
+            <div id="doc-header" class="doc-header text-center">
+                <h1 class="doc-title"><i class="icon fa fa-user-friends"></i>Certificados</h1>
+                <div class="meta"><i class="far fa-clock"></i> Actualizado: 01/04/2020</div>
+
+            </div><!--//doc-header-->
+            <div class="doc-body row">
+                <div class="doc-content col-md-9 col-12 order-1">
+                    <div class="content-inner">
+                        <section id="types-section" class="doc-section">
+                            <h2 class="section-title">Tipos</h2>
+                            <div class="section-block">
+                                <p>Actualmente el sistema admite dos tipos de obleas distintos, para desinfección o de limpieza de tanque de agua potable.
+                                    (Se encuentran bajo el icono <span class="fa fa-qrcode"></span> en la barra de navegación )</p>
+                            </div>
+                        </section><!--//doc-section-->
+                        <section id="listing-section" class="doc-section">
+                            <h2 class="section-title">Listado</h2>
+                            <div class="section-block">
+                                <p>Dentro del módulo de certificados, encontrara un listado ordenado con el Número de oblea, dirección y vencimiendo.</p>
+                                <img src="assets/images/certif/listing.png" class="img-fluid">
+                                <p>Desde el cuadro de busqueda podra encontrar rapidamente una oblea emitida hace tiempo por su número o dirección.</p>
+                                <p>Con el boton <span class="btn btn-secondary btn-sm"><span class="fa fa-plus"></span> Nuevo</span> podra acceder al
+                                    formulario de carga para emisión de nuevas obles.
+                                    A la derecha de cada oblea el icono <span class="fa fa-qrcode"></span> le permitira imprimirla.</p>
+                            </div>
+                        </section><!--//doc-section-->
+                        <section id="new-section" class="doc-section">
+                            <h2 class="section-title">Nueva Oblea</h2>
+                            <div class="section-block">
+                                <p>Al momento de querer emitir una nueva oblea, debera completar el siguiente formulario.</p>
+                                <img src="assets/images/certif/new_form.png" class="img-fluid">
+                                <p>Que posee los siguientes campos:</p>
+                                <ul class="list">
+                                    <li>Dirección: Realiza una busqueda en sus clientes cargados por dicho campo.</li>
+                                    <li>Tratamiento: Campo de fecha pre-cargado con la fecha del dia que se realiza la carga.</li>
+                                    <li>Vencimiento: Campo de fecha pre-cargado con 30 dias corridos despues fecha del dia que se realiza la carga. (Puede modificarse por la fecha que desee)</li>
+                                    <li>Observaciones: Detalle que se mostrata al usuario cuando este escane el codigo de la oblea emitida</li>
+                                </ul>
+                                <p>La oblea sera confirmada luego de clickear el boton guardar, y ya no podra ser modficada.</p>
+                            </div>
+                        </section>
+                        <section id="printing-section" class="doc-section">
+                            <h2 class="section-title">Impresión</h2>
+                            <div class="section-block">
+                                <p>Luego de emitida la oblea, ya se encuentra lista para ser impresa. Bastara con apretar el icono <span class="fa fa-qrcode"></span>,
+                                    se abrira una pestaña con la oblea y el cuadro de dialogo de impresión.
+                                </p>
+                                <p>Recuerde deshabilitar el <b>Encabezado y pie de paginas</b> si no quiere que el link de impresión aparezaca en la misma</p>
+                                <p><b>NOTA:</b> Se recomienda utilizar Google Chrome para realizar la impresión ya que otros navegadores suele modificar
+                                el estilo para que ocupen la mayor parte de la hoja
+                                </p>
+                            </div>
+                        </section>
+
+                        <section id="pdf_export-section" class="doc-section">
+                            <h2 class="section-title">Exportar a PDF</h2>
+                            <div class="section-block">
+                                <p>Si desea exportar a PDF y/o insertar un membre personalizado, puede consultar <a href="exportPdf.html"> esta guia</a>.</p>
+                            </div>
+                        </section>
+                        <section id="consulting-section" class="doc-section">
+                            <h2 class="section-title">Consulta de oblea</h2>
+                            <div class="section-block">
+                                <p>
+                                    Al escanear el código QR, se visualiza un resumen de la oblea donde aparecen los datos de la empresa
+                                    que lo emitio, junto con su Numero,fecha de emision, vencimiento y detalle. Cargados a la hora de generarla.
+                                </p>
+                                <img src="assets/images/certif/qr_scan.png" class="img-fluid">
+                            </div>
+                        </section>
+
+                    </div><!--//content-inner-->
+                </div><!--//doc-content-->
+                <div class="doc-sidebar col-md-3 col-12 order-0 d-none d-md-flex">
+                    <div id="doc-nav" class="doc-nav">
+
+                        <nav id="doc-menu" class="nav doc-menu flex-column sticky">
+                            <a class="nav-link scrollto" href="#types-section">Tipos</a>
+                            <a class="nav-link scrollto" href="#listing-section">Listado</a>
+                            <a class="nav-link scrollto" href="#new-section">Nueva oblea</a>
+                            <a class="nav-link scrollto" href="#printing-section">Impresion</a>
+                            <a class="nav-link scrollto" href="#pdf_export-section">Exportar a PDF</a>
+                            <a class="nav-link scrollto" href="#consulting-section">Consulta de oblea emitida</a>
+                        </nav><!--//doc-menu-->
+                    </div>
+                </div><!--//doc-sidebar-->
+            </div><!--//doc-body-->
+        </div><!--//container-->
+    </div><!--//doc-wrapper-->
+
+
+</div><!--//page-wrapper-->
+
+<footer class="footer text-center">
+    <div class="container">
+        <!--/* This template is released under the Creative Commons Attribution 3.0 License. Please keep the attribution link below when using for your own project. Thank you for your support. :) If you'd like to use the template without the attribution, you can buy the commercial license via our website: themes.3rdwavemedia.com */-->
+        <small class="copyright">SYSFUM© 2020</small>
+
+    </div><!--//container-->
+</footer><!--//footer-->
+
+
+<!-- Main Javascript -->
+<script type="text/javascript" src="assets/plugins/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="assets/plugins/prism/prism.js"></script>
+<script type="text/javascript" src="assets/plugins/jquery-scrollTo/jquery.scrollTo.min.js"></script>
+<script type="text/javascript" src="assets/plugins/stickyfill/dist/stickyfill.min.js"></script>
+<script type="text/javascript" src="assets/js/main.js"></script>
+
+</body>
+</html> 
+
